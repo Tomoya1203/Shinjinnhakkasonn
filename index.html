@@ -9,17 +9,24 @@
     <link rel="stylesheet" href="./assets/css/splide.min.css">
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            タイトル画像
-            <img src="" alt="">
-        </a>
-        <a href="https://www.instagram.com/3rdinposse_private.memories?igsh=Nml5NDBwaGl1a2U2">
-            <img src="assets/img/icon-instagram.png" alt="インスタグラムのアイコン">
-        </a>
+    <header id="header" class="is-transpalent">
+        
+        <nav>
+            <a href="index.html">
+                タイトル画像
+                <img src="" alt="">
+            </a>
+            <div>MU</div>
+            <div>縦横もく</div>
+            <div>かださぽ</div>
+            <div>イベント</div>
+            <a href="https://www.instagram.com/3rdinposse_private.memories?igsh=Nml5NDBwaGl1a2U2" class="header-insta-icon">
+                <img src="assets/img/icon-instagram.png" alt="インスタグラムのアイコン">
+            </a>
+        </nav>
+        
     </header>
     <section class="splide" aria-labelledby="carousel-heading">
-        <h2 id="carousel-heading">Splideの基本的なHTML</h2>
         <div class="splide__track">
             <ul class="splide__list">
                 <li class="splide__slide"><div class="slide-img"><img src="./assets/img/IMG_E8490.JPG" alt=""></div></li>
@@ -31,14 +38,15 @@
     </section>
     <main>
         <!-- 左側のセクション -->
-        <section class="left">left
+        <section class="left">
             <div class="flow-container">
 
             </div>
+            <h2 class="h">ミートアップ(MU)</h2>
             <div class="mu-container">
-                <h2 class="h">ミートアップ</h2>
+                
                 <img src="./assets/img/S__10190851.jpg" alt="" class="MUimg">
-                <p class="p">毎週月曜日に19:30から3時間行われるzoom会議です! <br> 
+                <p class="p">毎週月曜日に19:30から3時間行われるzoom会議です!!! <br> 
                     "MU"と略されることが多く、ブラシス、ワークショップ、各局のお知らせなど盛りだくさんの内容です! <br>
                     祝日もあるから気をつけてください!
                 </p>
@@ -49,14 +57,16 @@
                 </p>
 
             </div>
+            <h2 class="h">
+                横もく・縦もく
+            </h2>
+            
             <div class="mokumoku-container">
-                <h2 class="h">
-                    横もく・縦もく
-                </h2>
+                
+                <img src="./assets/img/S__57909253_0.jpg" alt="">
                 <h3>
                     横もく
                 </h3>
-                <img src="./assets/img/S__57909253_0.jpg" alt="">
                 <p class="p">
                     毎週３時間の同期との勉強会のこと！
                     <br>
@@ -74,8 +84,9 @@
                 </p>
 
             </div>
+            <h2 class="h">課題サポート会</h2>
             <div class="kadasapo-container">
-                <h2 class="h">課題サポート会</h2>
+                
                 <img src="./assets/img/S__10182676.jpg" alt="" class="MUimg">
                 <p class="p">新人ハッカソンまで週2回程度行われる勉強会です! <br>
                     ここで先輩や同期の人と仲良くなれます! <br>
@@ -83,10 +94,11 @@
                 </p>
 
             </div>
+            <h2 class="h">
+                イベント
+            </h2>
             <div class="event-container">
-                <h2 class="h">
-                    イベント
-                </h2>
+                
                 <p class="p">
                     POSSEには一年を通して公式、非公式たくさんのイベントがあります！
                     <br>
@@ -103,11 +115,11 @@
 
 
     </main>
-    <footer>
+    <!-- <footer>
         <a href="https://posse.community/">
             公式ウェブサイト
         </a>
-    </footer>
+    </footer> -->
     <script src="./assets/js/splide.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>

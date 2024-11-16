@@ -1,0 +1,141 @@
+
+/* 汎用 */
+.right{
+    background-color: rgb(242, 213, 212);
+}
+.left{
+    background-color: #faffff;
+}
+.h{
+    font-family: Noto Sans JP;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0.05em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.p{
+    font-family: Noto Sans JP;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+letter-spacing: 0.05em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+/* ヘッダー */
+header {
+    background-color: bisque;
+    height: 100px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    transition: background-color 0.5s;
+
+}
+.is-transpalent{
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: background-color 0.5s;
+}
+.header-insta-icon{
+    display: block;
+    height: 50px;
+    margin-left: auto;
+    width:50px;
+    margin-top: -20px;
+}
+nav{
+    display: flex;
+    margin-top: 50px;
+}
+nav div{
+    margin-left: 100px;
+}
+
+/* メイン */
+main{
+    
+    height: 5vh;
+    justify-items: center;
+}
+
+/* スライド */
+.slide-img{
+    width:80%;
+    margin: 0 auto;
+}
+li#splide01-slide01{
+    background-color: black;
+}
+li#splide01-slide02{
+    background-color: black;
+}
+li#splide01-slide03{
+    background-color: black;
+}
+li#splide01-slide04{
+    background-color: black;
+}
+
+
+
+
+
+
+/* 目次 */
+
+/* 流れ */
+
+/* mu */
+.mu-container{
+    background-color: rgb(215, 196, 171);
+    text-align: center;
+    width: 980px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.MUimg{
+    width: 880px;
+    margin-top: 30px;
+}
+/* もくもく */
+.mokumoku-container{
+    background-color: rgb(215, 196, 171);
+    text-align: center;
+    width: 980px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+/* さばり */
+
+/* ふったー */
+footer {
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+
+
+
+
+.kadasapo-container{
+    background-color: rgb(215, 196, 171);
+    text-align: center;
+    width: 980px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.event-container{
+    background-color: rgb(215, 196, 171);
+    text-align: center;
+    width: 980px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
